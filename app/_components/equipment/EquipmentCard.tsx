@@ -1,5 +1,6 @@
 import { Equipment } from '@/app/_types';
 import { Card, CardHeader, CardTitle, CardContent } from '../ui/card';
+import { SPECIAL_EFFECTS } from '@/app/_constants/specialEffects';
 
 interface EquipmentCardProps {
   equipment: Equipment;
@@ -19,7 +20,7 @@ export const EquipmentCard: React.FC<EquipmentCardProps> = ({
       <CardHeader>
         <CardTitle>
           <div className="flex justify-between items-center">
-            <span>{equipment.base.name}</span>
+            <span>{equipment.base.localized.ja}</span>
             <span className="text-yellow-500">
               {"★".repeat(equipment.modifier.rank)}
             </span>
@@ -69,9 +70,14 @@ export const EquipmentCard: React.FC<EquipmentCardProps> = ({
             <h3 className="font-medium mb-2">特殊効果</h3>
             <div className="space-y-1 text-sm">
               {equipment.base.specialEffects.map((effect, index) => (
-                <div key={index} className="text-purple-600">
-                  {effect}
-                </div>
+                <>
+                  <div key={index} className="text-purple-600">
+                    {SPECIAL_EFFECTS[effect].localized.name.ja}
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    {SPECIAL_EFFECTS[effect].localized.description.ja}
+                  </div>
+                </>
               ))}
             </div>
           </div>
