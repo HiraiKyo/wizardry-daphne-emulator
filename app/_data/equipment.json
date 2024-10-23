@@ -1,0 +1,53 @@
+{
+  "equipment": [
+    {
+      "id": "1",
+      "name": "bronze_one_handed_sword",
+      "localized": {
+        "ja": "青銅の剣",
+        "en": "Bronze One-Handed Sword"
+      },
+      "category": "ONE_HANDED_SWORD",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 20,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "hitCount": 2,
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "2",
+      "name": "bronze_dagger",
+      "localized": {
+        "ja": "青銅の短剣",
+        "en": "Bronze Dagger"
+      },
+      "category": "ONE_HANDED_SWORD",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 16,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "hitCount": 2,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["DEXTERITY_CRITICAL"]
+    }
+  ]
+}
