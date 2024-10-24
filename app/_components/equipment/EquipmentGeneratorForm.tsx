@@ -76,7 +76,7 @@ export const EquipmentGeneratorForm: React.FC<EquipmentGeneratorFormProps> = ({
         onChange={(e) => setOptionCount(Number(e.target.value))}
         required
       >
-        {[1, 2, 3, 4].map((count) => (
+        {[0, 1, 2, 3, 4].map((count) => (
           <option key={count} value={count}>
             {count}
           </option>

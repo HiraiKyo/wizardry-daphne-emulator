@@ -10,17 +10,30 @@ interface EquipmentCardProps {
   className?: string;
 }
 
-export const EquipmentCard: React.FC<EquipmentCardProps> = ({ 
-  equipment, 
-  className = '' 
+export const EquipmentCard: React.FC<EquipmentCardProps> = ({
+  equipment,
+  className = ''
 }) => {
   const formatStatValue = (value: number) => {
     return value > 0 ? `+${value}` : value.toString();
   };
 
+  const bgColor = () => {
+    let str = "";
+    switch(equipment.modifier.optionCount) {
+      case 0: str = 'bg-gray-100'; break;
+      case 1: str = 'bg-green-100'; break;
+      case 2: str = 'bg-blue-100'; break;
+      case 3: str = 'bg-purple-100'; break;
+      case 4: str = 'bg-red-100'; break;
+      default: str = 'bg-gray-100'; break;
+    }
+    return str;
+  }
+
   return (
     <Card className={className}>
-      <CardHeader>
+      <CardHeader className={bgColor()}>
         <CardTitle>
           <div className="flex justify-between items-center">
             <span>{equipment.base.localized.ja}</span>
@@ -40,7 +53,7 @@ export const EquipmentCard: React.FC<EquipmentCardProps> = ({
               .map(([key, value]) => (
                 <div key={key} className="flex justify-between">
                   <span>{STAT_LABELS[key as keyof BaseStats].localized.name.ja}:</span>
-                  <span className={value > 0 ? 'text-blue-600' : 'text-red-600'}>
+                  <span className={value > 0 ? 'text-blue-600' : value === 0 ? 'text-gray-500' : 'text-red-600'}>
                     {formatStatValue(value)}{equipment.base.slot === EquipmentSlot.MAIN_HAND && key == "attack" ? `x${equipment.base.hitCount}` : ""}
                   </span>
                 </div>
@@ -97,6 +110,7 @@ export const EquipmentCard: React.FC<EquipmentCardProps> = ({
           </div>
         )}
 
+        <div className="border-t border-gray-200 my-4" />
         {/* JSON string をToggleで表示*/}
         <ToggledJson json={equipment} />
       </CardContent>

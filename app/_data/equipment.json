@@ -17,8 +17,8 @@
         "magicDefense": 0,
         "resistance": 0,
         "speed": 0,
-        "accuracy": 0,
-        "evasion": 0,
+        "accuracy": 10,
+        "evasion": 2,
         "critical": 0
       },
       "hitCount": 2,
@@ -31,7 +31,7 @@
         "ja": "青銅の短剣",
         "en": "Bronze Dagger"
       },
-      "category": "ONE_HANDED_SWORD",
+      "category": "DAGGER",
       "slot": "MAIN_HAND",
       "baseStats": {
         "attack": 16,
@@ -40,14 +40,599 @@
         "defense": 0,
         "magicDefense": 0,
         "resistance": 0,
-        "speed": 0,
-        "accuracy": 0,
-        "evasion": 0,
+        "speed": 4,
+        "accuracy": 15,
+        "evasion": 2,
         "critical": 0
       },
       "hitCount": 2,
       "maxEnhanceLevel": 3,
       "specialEffects": ["DEXTERITY_CRITICAL"]
+    }, {
+      "id": "3",
+      "name": "bronze_one_handed_axe",
+      "localized": {
+        "ja": "青銅の斧",
+        "en": "Bronze One-Handed Axe"
+      },
+      "category": "ONE_HANDED_AXE",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 26,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 6,
+        "evasion": 0,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["DEFENSE_PENETRATION"]
+    }, {
+      "id":"4",
+      "name": "hardwood_one_handed_staff",
+      "localized": {
+        "ja": "硬木の杖",
+        "en": "Hardwood Staff"
+      },
+      "category": "ONE_HANDED_STAFF",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 10,
+        "magic": 8,
+        "divine": 8,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 2,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "5",
+      "name": "bronze_one_handed_halberd",
+      "localized": {
+        "ja": "青銅の戦斧",
+        "en": "Bronze One-Handed Halberd"
+      },
+      "category": "ONE_HANDED_HALBERD",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 24,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 4,
+        "evasion": 2,
+        "critical": -4
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STUN_CHANCE", "EVASION_DAMAGE"]
+    }, {
+      "id": "6",
+      "name": "bronze_two_handed_sword",
+      "localized": {
+        "ja": "青銅の大剣",
+        "en": "Bronze Two-Handed Sword"
+      },
+      "category": "TWO_HANDED_SWORD",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 33,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -4,
+        "accuracy": 6,
+        "evasion": -2,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK"]
+    }, {
+      "id": "7",
+      "name": "bronze_spear",
+      "localized": {
+        "ja": "青銅の槍",
+        "en": "Bronze Spear"
+      },
+      "category": "TWO_HANDED_SPEAR",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 29,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 10,
+        "evasion": 4,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK"]
+    }, {
+      "id": "8",
+      "name": "bronze_two_handed_axe",
+      "localized": {
+        "ja": "青銅の大斧",
+        "en": "Bronze Two-Handed Axe"
+      },
+      "category": "TWO_HANDED_AXE",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 33,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -8,
+        "accuracy": 0,
+        "evasion": -6,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK", "DEFENSE_PENETRATION"]
+    }, {
+      "id": "9",
+      "name": "bronze_two_handed_staff",
+      "localized": {
+        "ja": "青銅の大杖",
+        "en": "Bronze Two-Handed Staff"
+      },
+      "category": "TWO_HANDED_STAFF",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 14,
+        "magic": 16,
+        "divine": 16,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": -4,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK"]
+    }, {
+      "id": "10",
+      "name": "bronze_two_handed_halberd",
+      "localized": {
+        "ja": "青銅の大戦斧",
+        "en": "Bronze Two-Handed Halberd"
+      },
+      "category": "TWO_HANDED_HALBERD",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 31,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -8,
+        "accuracy": 0,
+        "evasion": -6,
+        "critical": -4
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK", "STUN_CHANCE", "EVASION_DAMAGE"]
+    }, {
+      "id": "11",
+      "name": "hardwood_bow",
+      "localized": {
+        "ja": "硬木の弓",
+        "en": "Hardwood Bow"
+      },
+      "category": "BOW",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 32,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 4,
+        "evasion": 0,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK"]
+    },
+    {
+      "id": "12",
+      "name": "leather_buckler",
+      "localized": {
+        "ja": "革の盾",
+        "en": "Leather Buckler"
+      },
+      "category": "BUCKLER",
+      "slot": "OFF_HAND",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 3,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "13",
+      "name": "bronze_shield",
+      "localized": {
+        "ja": "青銅の盾",
+        "en": "Bronze Shield"
+      },
+      "category": "SHIELD",
+      "slot": "OFF_HAND",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 6,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "14",
+      "name": "bronze_tower_shield",
+      "localized": {
+        "ja": "青銅の大盾",
+        "en": "Bronze Tower Shield"
+      },
+      "category": "TOWER_SHIELD",
+      "slot": "OFF_HAND",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 9,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -1,
+        "accuracy": -2,
+        "evasion": -2,
+        "critical": 0
+      }, 
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "15",
+      "name": "leather_hat",
+      "localized": {
+        "ja": "革の帽子",
+        "en": "Leather Hat"
+      },
+      "category": "HAT",
+      "slot": "HEAD",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 2,
+        "magicDefense": 0,
+        "resistance": 4,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "16",
+      "name": "bronze_light_helmet",
+      "localized": {
+        "ja": "青銅の軽兜",
+        "en": "Bronze Light Helmet"
+      },
+      "category": "LIGHT_HELM",
+      "slot": "HEAD",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 4,
+        "magicDefense": 0,
+        "resistance": 4,
+        "speed": -1,
+        "accuracy": -2,
+        "evasion": -2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "17",
+      "name": "bronze_heavy_helm",
+      "localized": {
+        "ja": "青銅の重兜",
+        "en": "Bronze Heavy Helmet"
+      },
+      "category": "HEAVY_HELM",
+      "slot": "HEAD",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 6,
+        "magicDefense": 0,
+        "resistance": 4,
+        "speed": -2,
+        "accuracy": -2,
+        "evasion": -4,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "18",
+      "name": "leather_glove",
+      "localized": {
+        "ja": "革の手袋",
+        "en": "Leather Glove"
+      },
+      "category": "GLOVES",
+      "slot": "HANDS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 2,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 2,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "19",
+      "name": "bronze_light_gauntlet",
+      "localized": {
+        "ja": "青銅の軽篭手",
+        "en": "Bronze Light Gauntlet"
+      },
+      "category": "LIGHT_GAUNTLET",
+      "slot": "HANDS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 4,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "20",
+      "name": "bronze_heavy_gauntlet",
+      "localized": {
+        "ja": "青銅の重篭手",
+        "en": "Bronze Heavy Gauntlet"
+      },
+      "category": "HEAVY_GAUNTLET",
+      "slot": "HANDS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 5,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": -2,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "21",
+      "name": "leather_robe",
+      "localized": {
+        "ja": "革のローブ",
+        "en": "Leather Robe"
+      },
+      "category": "CLOTHES",
+      "slot": "BODY",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 6,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "22",
+      "name": "bronze_light_armor",
+      "localized": {
+        "ja": "青銅の軽鎧",
+        "en": "Bronze Light Armor"
+      },
+      "category": "LIGHT_ARMOR",
+      "slot": "BODY",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 12,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -1,
+        "accuracy": -2,
+        "evasion": -2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "23",
+      "name": "bronze_heavy_armor",
+      "localized": {
+        "ja": "青銅の重鎧",
+        "en": "Bronze Heavy Armor"
+      },
+      "category": "HEAVY_ARMOR",
+      "slot": "BODY",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 18,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -2,
+        "accuracy": -2,
+        "evasion": -4,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "24",
+      "name": "leather_boots",
+      "localized": {
+        "ja": "革の靴",
+        "en": "Leather Boots"
+      },
+      "category": "BOOTS",
+      "slot": "BOOTS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 2,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 2,
+        "accuracy": 0,
+        "evasion": 2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "25",
+      "name": "bronze_light_greaves",
+      "localized": {
+        "ja": "青銅の軽具足",
+        "en": "Bronze Light Greaves"
+      },
+      "category": "LIGHT_GREAVES",
+      "slot": "BOOTS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 3,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "26",
+      "name": "bronze_heavy_greaves",
+      "localized": {
+        "ja": "青銅の重具足",
+        "en": "Bronze Heavy Greaves"
+      },
+      "category": "HEAVY_GREAVES",
+      "slot": "BOOTS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 5,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -1,
+        "accuracy": 0,
+        "evasion": -2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "27",
+      "name": "bronze_ring",
+      "localized": {
+        "ja": "青銅の指輪",
+        "en": "Bronze Ring"
+      },
+      "category": "ACCESSORY",
+      "slot": "ACCESSORY",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 1,
+        "magicDefense": 8,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
     }
   ]
 }

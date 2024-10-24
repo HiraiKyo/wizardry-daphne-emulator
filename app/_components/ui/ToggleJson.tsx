@@ -5,7 +5,7 @@ export const ToggledJson = ({ json } : { json: any }) => {
 
   return (
     <div>
-      <button onClick={() => setIsToggled(!isToggled)}>
+      <button onClick={() => setIsToggled(!isToggled)} className="text-sm text-gray-500">
         {isToggled ? "Hide" : "Show"} JSON
       </button>
       {isToggled && <pre className="
