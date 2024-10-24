@@ -1,7 +1,10 @@
-import { BaseEquipment } from "@/app/_types";
+import { BaseEquipment, EquipmentCategory } from "@/app/_types";
 import { useState } from "react";
 import { Button } from "../ui/button";
 import { Select } from "../ui/select";
+import { CATEGORY_LABELS } from "@/app/_constants/category";
+
+const lang = "ja";
 
 interface EquipmentGeneratorFormProps {
   onGenerate: (baseId: string, rank: number, optionCount: number) => void;
@@ -44,7 +47,7 @@ export const EquipmentGeneratorForm: React.FC<EquipmentGeneratorFormProps> = ({
       >
         <option value="">選択してください</option>
         {Object.entries(groupedEquipments).map(([category, equipments]) => (
-          <optgroup key={category} label={category}>
+          <optgroup key={category} label={CATEGORY_LABELS[category as EquipmentCategory].localized.name[lang]}>
             {equipments.map((eq) => (
               <option key={eq.id} value={eq.id}>
                 {eq.localized.ja}

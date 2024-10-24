@@ -9,6 +9,7 @@ import { EquipmentCard } from "./_components/equipment/EquipmentCard";
 import { EquipmentGeneratorForm } from "./_components/equipment/EquipmentGeneratorForm";
 import { Button } from "./_components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "./_components/ui/card";
+import Link from "next/link";
 
 const baseEquipments = BASE_EQUIPMENTS.equipment as BaseEquipment[];
 
@@ -39,8 +40,15 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-
+      {/* 管理人からのお知らせ */}
+      <div className="bg-gray-100 p-4 rounded-lg w-full">
+        <p>+4 → +5上昇時のオプション数値増加量を調べています。</p>
+        <Link className="text-blue-500" href="https://forms.gle/7GcUeGWHheZLtkKm8" target="_blank" rel="noopener noreferrer">
+          アンケートにご協力ください
+        </Link>
+      </div>
       <div className="min-h-screen bg-gray-50 py-8">
+        
       <div className="container mx-auto px-4">
         <h1 className="text-3xl font-bold text-center mb-8">
           装備ジェネレータ

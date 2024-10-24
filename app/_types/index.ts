@@ -68,16 +68,16 @@ export enum ArmorCategory {
   ACCESSORY = 'ACCESSORY'       // 装飾品
 }
 
+// 装備カテゴリの種類
+export type EquipmentCategory = WeaponCategory | ArmorCategory;
 // 装備カテゴリの共通インターフェース
 export interface CategoryInfo {
-  id: WeaponCategory | ArmorCategory;
+  id: EquipmentCategory;
   slot: EquipmentSlot;
   isTwoHanded?: boolean;  // 武器の場合、両手持ちかどうか
   weight: 'LIGHT' | 'MEDIUM' | 'HEAVY';  // 装備の重さ区分
 }
 
-// 装備カテゴリの種類
-export type EquipmentCategory = WeaponCategory | ArmorCategory;
 
 // 完全な装備情報
 export interface Equipment {

@@ -6,7 +6,7 @@ export const CATEGORY_INFO: Record<WeaponCategory | ArmorCategory, CategoryInfo>
     id: WeaponCategory.ONE_HANDED_SWORD,
     slot: EquipmentSlot.MAIN_HAND,
     isTwoHanded: false,
-    weight: 'MEDIUM'
+    weight: 'MEDIUM',
   },
   [WeaponCategory.TWO_HANDED_SWORD]: {
     id: WeaponCategory.TWO_HANDED_SWORD,
