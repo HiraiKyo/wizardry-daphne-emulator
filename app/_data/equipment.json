@@ -100,7 +100,7 @@
       "id": "5",
       "name": "bronze_one_handed_halberd",
       "localized": {
-        "ja": "青銅の戦斧",
+        "ja": "青銅の鎚矛",
         "en": "Bronze One-Handed Halberd"
       },
       "category": "ONE_HANDED_HALBERD",
@@ -172,7 +172,7 @@
       "id": "8",
       "name": "bronze_two_handed_axe",
       "localized": {
-        "ja": "青銅の大斧",
+        "ja": "青銅の両手斧",
         "en": "Bronze Two-Handed Axe"
       },
       "category": "TWO_HANDED_AXE",
@@ -196,7 +196,7 @@
       "id": "9",
       "name": "bronze_two_handed_staff",
       "localized": {
-        "ja": "青銅の大杖",
+        "ja": "青銅の両手杖",
         "en": "Bronze Two-Handed Staff"
       },
       "category": "TWO_HANDED_STAFF",
@@ -220,7 +220,7 @@
       "id": "10",
       "name": "bronze_two_handed_halberd",
       "localized": {
-        "ja": "青銅の大戦斧",
+        "ja": "青銅の大型鎚矛",
         "en": "Bronze Two-Handed Halberd"
       },
       "category": "TWO_HANDED_HALBERD",
@@ -479,7 +479,7 @@
         "ja": "革のローブ",
         "en": "Leather Robe"
       },
-      "category": "CLOTHES",
+      "category": "CLOTHES  ",
       "slot": "BODY",
       "baseStats": {
         "attack": 0,
@@ -625,6 +625,1270 @@
         "divine": 0,
         "defense": 1,
         "magicDefense": 8,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "101",
+      "name": "iron_one_handed_sword",
+      "localized": {
+        "ja": "鉄の剣",
+        "en": "Iron One-Handed Sword"
+      },
+      "category": "ONE_HANDED_SWORD",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 30,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 10,
+        "evasion": 2,
+        "critical": 0
+      },
+      "hitCount": 2,
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "102",
+      "name": "iron_dagger",
+      "localized": {
+        "ja": "鉄の短剣",
+        "en": "Iron Dagger"
+      },
+      "category": "DAGGER",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 25,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 4,
+        "accuracy": 15,
+        "evasion": 2,
+        "critical": 0
+      },
+      "hitCount": 2,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["DEXTERITY_CRITICAL"]
+    }, {
+      "id": "103",
+      "name": "iron_one_handed_axe",
+      "localized": {
+        "ja": "鉄の斧",
+        "en": "Iron One-Handed Axe"
+      },
+      "category": "ONE_HANDED_AXE",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 41,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 6,
+        "evasion": 0,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["DEFENSE_PENETRATION"]
+    }, {
+      "id": "104",
+      "name": "old_tree_one_handed_staff",
+      "localized": {
+        "ja": "古木の杖",
+        "en": "Old Tree Staff"
+      },
+      "category": "ONE_HANDED_STAFF",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 13,
+        "magic": 20,
+        "divine": 20,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 2,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "105",
+      "name": "iron_one_handed_halberd",
+      "localized": {
+        "ja": "鉄の鎚矛",
+        "en": "Iron One-Handed Halberd"
+      },
+      "category": "ONE_HANDED_HALBERD",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 38,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 4,
+        "evasion": 2,
+        "critical": -4
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STUN_CHANCE", "EVASION_DAMAGE"]
+    }, {
+      "id": "106",
+      "name": "iron_two_handed_sword",
+      "localized": {
+        "ja": "鉄の大剣",
+        "en": "Iron Two-Handed Sword"
+      },
+      "category": "TWO_HANDED_SWORD",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 54,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -4,
+        "accuracy": 6,
+        "evasion": -2,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK"]
+    }, {
+      "id": "107",
+      "name": "iron_spear",
+      "localized": {
+        "ja": "鉄の両手槍",
+        "en": "Iron Spear"
+      },
+      "category": "TWO_HANDED_SPEAR",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 50,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 10,
+        "evasion": 4,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK"]
+    }, {
+      "id": "108",
+      "name": "iron_two_handed_axe",
+      "localized": {
+        "ja": "鉄の両手斧",
+        "en": "Iron Two-Handed Axe"
+      },
+      "category": "TWO_HANDED_AXE",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 54,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -8,
+        "accuracy": 0,
+        "evasion": -6,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK", "DEFENSE_PENETRATION"]
+    }, {
+      "id": "109",
+      "name": "old_tree_two_handed_staff",
+      "localized": {
+        "ja": "古木の両手杖",
+        "en": "Old Tree Two-Handed Staff"
+      },
+      "category": "TWO_HANDED_STAFF",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 20,
+        "magic": 38,
+        "divine": 38,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": -4,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK"]
+    }, {
+      "id": "110",
+      "name": "iron_two_handed_halberd",
+      "localized": {
+        "ja": "鉄の両手鎚矛",
+        "en": "Iron Two-Handed Halberd"
+      },
+      "category": "TWO_HANDED_HALBERD",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 52,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -8,
+        "accuracy": 0,
+        "evasion": -6,
+        "critical": -4
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK", "STUN_CHANCE", "EVASION_DAMAGE"]
+    }, {
+      "id": "111",
+      "name": "old_tree_bow",
+      "localized": {
+        "ja": "古木の弓",
+        "en": "Old Tree Bow"
+      },
+      "category": "BOW",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 52,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 4,
+        "evasion": 0,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK"]
+    }, {
+      "id": "112",
+      "name": "animal_hide_buckler",
+      "localized": {
+        "ja": "獣皮の小盾",
+        "en": "Animal Hide Buckler"
+      },
+      "category": "BUCKLER",
+      "slot": "OFF_HAND",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 5,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "113",
+      "name": "iron_shield",
+      "localized": {
+        "ja": "鉄の盾",
+        "en": "Iron Shield"
+      },
+      "category": "SHIELD",
+      "slot": "OFF_HAND",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 8,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "114",
+      "name": "iron_tower_shield",
+      "localized": {
+        "ja": "鉄の大盾",
+        "en": "Iron Tower Shield"
+      },
+      "category": "TOWER_SHIELD",
+      "slot": "OFF_HAND",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 14,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -1,
+        "accuracy": -2,
+        "evasion": -2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "115",
+      "name": "animal_hide_hat",
+      "localized": {
+        "ja": "獣皮の帽子",
+        "en": "Animal Hide Hat"
+      },
+      "category": "HAT",
+      "slot": "HEAD",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 3,
+        "magicDefense": 0,
+        "resistance": 4,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "116",
+      "name": "iron_light_helmet",
+      "localized": {
+        "ja": "鉄の軽兜",
+        "en": "Iron Light Helmet"
+      },
+      "category": "LIGHT_HELM",
+      "slot": "HEAD",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 6,
+        "magicDefense": 0,
+        "resistance": 4,
+        "speed": -1,
+        "accuracy": -2,
+        "evasion": -2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "117",
+      "name": "iron_heavy_helm",
+      "localized": {
+        "ja": "鉄の重兜",
+        "en": "Iron Heavy Helmet"
+      },
+      "category": "HEAVY_HELM",
+      "slot": "HEAD",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 9,
+        "magicDefense": 0,
+        "resistance": 4,
+        "speed": -2,
+        "accuracy": -2,
+        "evasion": -4,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "118",
+      "name": "animal_hide_glove",
+      "localized": {
+        "ja": "獣皮の手袋",
+        "en": "Animal Hide Glove"
+      },
+      "category": "GLOVES",
+      "slot": "HANDS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 3,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 2,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "119",
+      "name": "iron_light_gauntlet",
+      "localized": {
+        "ja": "鉄の軽篭手",
+        "en": "Iron Light Gauntlet"
+      },
+      "category": "LIGHT_GAUNTLET",
+      "slot": "HANDS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 4,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "120",
+      "name": "iron_heavy_gauntlet",
+      "localized": {
+        "ja": "鉄の重篭手",
+        "en": "Iron Heavy Gauntlet"
+      },
+      "category": "HEAVY_GAUNTLET",
+      "slot": "HANDS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 6,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": -2,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "121",
+      "name": "animal_hide_robe",
+      "localized": {
+        "ja": "獣皮のローブ",
+        "en": "Animal Hide Robe"
+      },
+      "category": "CLOTHES",
+      "slot": "BODY",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 9,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "122",
+      "name": "iron_light_armor",
+      "localized": {
+        "ja": "鉄の軽鎧",
+        "en": "Iron Light Armor"
+      },
+      "category": "LIGHT_ARMOR",
+      "slot": "BODY",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 18,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -1,
+        "accuracy": -2,
+        "evasion": -2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "123",
+      "name": "iron_heavy_armor",
+      "localized": {
+        "ja": "鉄の重鎧",
+        "en": "Iron Heavy Armor"
+      },
+      "category": "HEAVY_ARMOR",
+      "slot": "BODY",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 24,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -2,
+        "accuracy": -2,
+        "evasion": -4,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "124",
+      "name": "animal_hide_boots",
+      "localized": {
+        "ja": "獣皮の靴",
+        "en": "Animal Hide Boots"
+      },
+      "category": "BOOTS",
+      "slot": "BOOTS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 3,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 2,
+        "accuracy": 0,
+        "evasion": 2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "125",
+      "name": "iron_light_greaves",
+      "localized": {
+        "ja": "鉄の軽具足",
+        "en": "Iron Light Greaves"
+      },
+      "category": "LIGHT_GREAVES",
+      "slot": "BOOTS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 4,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "126",
+      "name": "iron_heavy_greaves",
+      "localized": {
+        "ja": "鉄の重具足",
+        "en": "Iron Heavy Greaves"
+      },
+      "category": "HEAVY_GREAVES",
+      "slot": "BOOTS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 6,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -1,
+        "accuracy": 0,
+        "evasion": -2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "127",
+      "name": "iron_ring",
+      "localized": {
+        "ja": "鉄の指輪",
+        "en": "Iron Ring"
+      },
+      "category": "ACCESSORY",
+      "slot": "ACCESSORY",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 2,
+        "magicDefense": 10,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "201",
+      "name": "steel_one_handed_sword",
+      "localized": {
+        "ja": "鋼の剣",
+        "en": "Steel One-Handed Sword"
+      },
+      "category": "ONE_HANDED_SWORD",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 40,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 10,
+        "evasion": 2,
+        "critical": 0
+      },
+      "hitCount": 2,
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "202",
+      "name": "steel_dagger",
+      "localized": {
+        "ja": "鋼の短剣",
+        "en": "Steel Dagger"
+      },
+      "category": "DAGGER",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 33,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 4,
+        "accuracy": 15,
+        "evasion": 2,
+        "critical": 0
+      },
+      "hitCount": 2,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["DEXTERITY_CRITICAL"]
+    }, {
+      "id": "203",
+      "name": "steel_one_handed_axe",
+      "localized": {
+        "ja": "鋼の斧",
+        "en": "Steel One-Handed Axe"
+      },
+      "category": "ONE_HANDED_AXE",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 56,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 6,
+        "evasion": 0,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["DEFENSE_PENETRATION"]
+    }, {
+      "id": "204",
+      "name": "sacred_tree_one_handed_staff",
+      "localized": {
+        "ja": "霊木の杖",
+        "en": "Sacred Tree Staff"
+      },
+      "category": "ONE_HANDED_STAFF",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 16,
+        "magic": 32,
+        "divine": 32,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 2,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "205",
+      "name": "steel_one_handed_halberd",
+      "localized": {
+        "ja": "鋼の鎚矛",
+        "en": "Steel One-Handed Halberd"
+      },
+      "category": "ONE_HANDED_HALBERD",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 48,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 4,
+        "evasion": 2,
+        "critical": -4
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STUN_CHANCE", "EVASION_DAMAGE"]
+    }, {
+      "id": "206",
+      "name": "steel_two_handed_sword",
+      "localized": {
+        "ja": "鋼の大剣",
+        "en": "Steel Two-Handed Sword"
+      },
+      "category": "TWO_HANDED_SWORD",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 72,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -4,
+        "accuracy": 6,
+        "evasion": -2,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK"]
+    }, {
+      "id": "207",
+      "name": "steel_spear",
+      "localized": {
+        "ja": "鋼の両手槍",
+        "en": "Steel Spear"
+      },
+      "category": "TWO_HANDED_SPEAR",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 63,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 10,
+        "evasion": 4,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK"]
+    }, {
+      "id": "208",
+      "name": "steel_two_handed_axe",
+      "localized": {
+        "ja": "鋼の両手斧",
+        "en": "Steel Two-Handed Axe"
+      },
+      "category": "TWO_HANDED_AXE",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 72,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -8,
+        "accuracy": 0,
+        "evasion": -6,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK", "DEFENSE_PENETRATION"]
+    }, {
+      "id": "209",
+      "name": "sacred_tree_two_handed_staff",
+      "localized": {
+        "ja": "霊木の両手杖",
+        "en": "Sacred Tree Two-Handed Staff"
+      },
+      "category": "TWO_HANDED_STAFF",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 25,
+        "magic": 60,
+        "divine": 60,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": -4,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK"]
+    }, {
+      "id": "210",
+      "name": "steel_two_handed_halberd",
+      "localized": {
+        "ja": "鋼の両手鎚矛",
+        "en": "Steel Two-Handed Halberd"
+      },
+      "category": "TWO_HANDED_HALBERD",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 70,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -8,
+        "accuracy": 0,
+        "evasion": -6,
+        "critical": -4
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK", "STUN_CHANCE", "EVASION_DAMAGE"]
+    }, {
+      "id": "211",
+      "name": "sacred_tree_bow",
+      "localized": {
+        "ja": "霊木の弓",
+        "en": "Sacred Tree Bow"
+      },
+      "category": "BOW",
+      "slot": "MAIN_HAND",
+      "baseStats": {
+        "attack": 68,
+        "magic": 0,
+        "divine": 0,
+        "defense": 0,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 4,
+        "evasion": 0,
+        "critical": 0
+      },
+      "hitCount": 1,
+      "maxEnhanceLevel": 3,
+      "specialEffects": ["STRENGTH_ATTACK"]
+    }, {
+      "id": "212",
+      "name": "scale_buckler",
+      "localized": {
+        "ja": "うろこ皮の小盾",
+        "en": "Scale Buckler"
+      },
+      "category": "BUCKLER",
+      "slot": "OFF_HAND",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 6,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "213",
+      "name": "steel_shield",
+      "localized": {
+        "ja": "鋼の盾",
+        "en": "Steel Shield"
+      },
+      "category": "SHIELD",
+      "slot": "OFF_HAND",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 12,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "214",
+      "name": "steel_tower_shield",
+      "localized": {
+        "ja": "鋼の大盾",
+        "en": "Steel Tower Shield"
+      },
+      "category": "TOWER_SHIELD",
+      "slot": "OFF_HAND",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 18,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -1,
+        "accuracy": -2,
+        "evasion": -2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "215",
+      "name": "scale_hat",
+      "localized": {
+        "ja": "うろこ皮の帽子",
+        "en": "Scale Hat"
+      },
+      "category": "HAT",
+      "slot": "HEAD",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 5,
+        "magicDefense": 0,
+        "resistance": 4,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "216",
+      "name": "steel_light_helmet",
+      "localized": {
+        "ja": "鋼の軽兜",
+        "en": "Steel Light Helmet"
+      },
+      "category": "LIGHT_HELM",
+      "slot": "HEAD",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 9,
+        "magicDefense": 0,
+        "resistance": 4,
+        "speed": -1,
+        "accuracy": -2,
+        "evasion": -2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "217",
+      "name": "steel_heavy_helm",
+      "localized": {
+        "ja": "鋼の重兜",
+        "en": "Steel Heavy Helmet"
+      },
+      "category": "HEAVY_HELM",
+      "slot": "HEAD",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 14,
+        "magicDefense": 0,
+        "resistance": 4,
+        "speed": -2,
+        "accuracy": -2,
+        "evasion": -4,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "218",
+      "name": "scale_glove",
+      "localized": {
+        "ja": "うろこ皮の手袋",
+        "en": "Scale Glove"
+      },
+      "category": "GLOVES",
+      "slot": "HANDS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 5,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 2,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "219",
+      "name": "steel_light_gauntlet",
+      "localized": {
+        "ja": "鋼の軽篭手",
+        "en": "Steel Light Gauntlet"
+      },
+      "category": "LIGHT_GAUNTLET",
+      "slot": "HANDS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 6,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "220",
+      "name": "steel_heavy_gauntlet",
+      "localized": {
+        "ja": "鋼の重篭手",
+        "en": "Steel Heavy Gauntlet"
+      },
+      "category": "HEAVY_GAUNTLET",
+      "slot": "HANDS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 9,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": -2,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "221",
+      "name": "scale_robe",
+      "localized": {
+        "ja": "うろこ皮のローブ",
+        "en": "Scale Robe"
+      },
+      "category": "CLOTHES",
+      "slot": "BODY",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 12,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "222",
+      "name": "steel_light_armor",
+      "localized": {
+        "ja": "鋼の軽鎧",
+        "en": "Steel Light Armor"
+      },
+      "category": "LIGHT_ARMOR",
+      "slot": "BODY",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 24,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -1,
+        "accuracy": -2,
+        "evasion": -2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "223",
+      "name": "steel_heavy_armor",
+      "localized": {
+        "ja": "鋼の重鎧",
+        "en": "Steel Heavy Armor"
+      },
+      "category": "HEAVY_ARMOR",
+      "slot": "BODY",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 36,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -2,
+        "accuracy": -2,
+        "evasion": -4,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "224",
+      "name": "scale_boots",
+      "localized": {
+        "ja": "うろこ皮の靴",
+        "en": "Scale Boots"
+      },
+      "category": "BOOTS",
+      "slot": "BOOTS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 5,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 2,
+        "accuracy": 0,
+        "evasion": 2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "225",
+      "name": "steel_light_greaves",
+      "localized": {
+        "ja": "鋼の軽足鎧",
+        "en": "Steel Light Greaves"
+      },
+      "category": "LIGHT_GREAVES",
+      "slot": "BOOTS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 6,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": 0,
+        "accuracy": 0,
+        "evasion": 0,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "226",
+      "name": "steel_heavy_greaves",
+      "localized": {
+        "ja": "鋼の重具足",
+        "en": "Steel Heavy Greaves"
+      },
+      "category": "HEAVY_GREAVES",
+      "slot": "BOOTS",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 9,
+        "magicDefense": 0,
+        "resistance": 0,
+        "speed": -1,
+        "accuracy": 0,
+        "evasion": -2,
+        "critical": 0
+      },
+      "maxEnhanceLevel": 3,
+      "specialEffects": []
+    }, {
+      "id": "227",
+      "name": "steel_ring",
+      "localized": {
+        "ja": "鋼の指輪",
+        "en": "Steel Ring"
+      },
+      "category": "ACCESSORY",
+      "slot": "ACCESSORY",
+      "baseStats": {
+        "attack": 0,
+        "magic": 0,
+        "divine": 0,
+        "defense": 4,
+        "magicDefense": 16,
         "resistance": 0,
         "speed": 0,
         "accuracy": 0,
