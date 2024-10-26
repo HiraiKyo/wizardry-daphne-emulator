@@ -221,7 +221,6 @@ export const CATEGORY_LABELS: Record<EquipmentCategory, CategoryLabel> = {
   [ArmorCategory.HEAVY_GREAVES]: {
     localized: {
       name: {
-
         ja: "重足鎧",
         en: "Heavy Greaves"
       }
